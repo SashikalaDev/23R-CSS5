@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .q{
+            height:80vh;
+            width:20vw;
+            border:3px solid black;
+            position: relative;
+            left:100px;
+            top:50px;
+            overflow-y: scroll;
+            background-image: linear-gradient(to bottom,navy,blue,skyblue);
+        }
+        .a1{
+            border:3px solid navy;
+            height:3vh;
+            width:12vh;
+            position: relative;
+            top:10px;
+            opacity: 0.5;
+            left: 105px;  
+        }
+        .a2{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:cornflowerblue;
+            position: relative;
+            top:40px;
+            left: 20px;
+            border-bottom-right-radius: 15px;
+              
+        }
+        .a3{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            top:40px;
+            left: 240px;
+            border-top-left-radius: 15px; 
+        }
+        .a4{
+            border:3px solid navy;
+            height:3vh;
+            width:12vh;
+            background-color:cornflowerblue;
+            position: relative;
+            top:40px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a5{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            top:40px;
+            left: 240px;
+            border-top-left-radius: 15px; 
+        }
+        .a6{
+            border:3px solid navy;
+            height:3vh;
+            width:10vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            top:42px;
+            left: 210px;
+            border-bottom-left-radius: 15px; 
+        }
+        .a7{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:cornflowerblue;
+            position: relative;
+            top:40px;
+            left: 20px;
+            border-bottom-right-radius: 15px;
+        }
+        .a8{
+            border:3px solid navy;
+            height:3vh;
+            width:16vh;
+            background-color:cornflowerblue;
+            position: relative;
+            top:42px;
+            left: 20px;
+            border-top-right-radius: 15px;
+        }
+        .a9{
+            border:3px solid navy;
+            height:3vh;
+            width:10vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 210px;
+            border-top-left-radius: 15px; 
+        }
+        .a10{
+            border:3px solid navy;
+            height:3vh;
+            width:10vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            top:2px;
+            left: 210px;
+            border-bottom-left-radius: 15px; 
+        }
+        .a11{
+            border:3px solid navy;
+            height:5vh;
+            width:14vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a12{
+            border:3px solid navy;
+            height:3vh;
+            width:7vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 230px;
+            border-top-left-radius: 15px; 
+        }
+        .a13{
+           border:3px solid navy;
+            height:3vh;
+            width:16vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 166px;
+            top:2px;
+            border-bottom-left-radius: 15px;
+        }
+        .a14{
+            border:3px solid navy;
+            height:3vh;
+            width:14vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a15{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 239px;
+            top:2px;
+            border-top-left-radius: 15px;
+        }
+        .a16{
+            border:3px solid navy;
+            height:3vh;
+            width:8vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a17{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 239px;
+            top:2px;
+            border-top-left-radius: 15px;
+        }
+        .a18{
+            border:3px solid navy;
+            height:3vh;
+            width:16vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 166px;
+            top:4px;
+            border-bottom-left-radius: 15px;
+        }
+        .a19{
+            border:3px solid navy;
+            height:5vh;
+            width:14vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a20{
+            border:3px solid navy;
+            height:5vh;
+            width:16vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 166px;
+            top:4px;
+            border-bottom-left-radius: 15px;
+        }
+        .a21{
+            border:3px solid navy;
+            height:3vh;
+            width:5vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a22{
+            margin-left: auto;
+        }
+        .a23{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 239px;
+            top:2px;
+            border-top-left-radius: 15px;   
+        }
+        .a24{
+            border:3px solid navy;
+            height:3vh;
+            width:10vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 210px;
+            top:4px;
+            border-bottom-left-radius: 15px;  
+        }
+        .a25{
+            border:3px solid navy;
+            height:3vh;
+            width:5vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a26{
+            border:3px solid navy;
+            height:3vh;
+            width:7vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:4px;
+            left: 20px;
+            border-top-right-radius: 15px; 
+        }
+        .a27{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 239px;
+            top:2px;
+            border-top-left-radius: 15px;
+        }
+        .a28{
+        border:3px solid navy;
+            height:3vh;
+            width:16vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 166px;
+            top:4px;
+            border-bottom-left-radius: 15px;
+        }
+        .a30{
+            border:3px solid navy;
+            height:3vh;
+            width:10vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:4px;
+            left: 20px;
+            border-top-right-radius: 15px; 
+        }
+        .a29{
+            position: relative;
+            margin-top: 20px;
+        }
+        .a31{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 239px;
+            top:2px;
+            border-top-left-radius: 15px; 
+        }
+        .a32{
+            border:3px solid navy;
+            height:5vh;
+            width:14vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a33{
+            border:3px solid navy;
+            height:3vh;
+            width:16vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 166px;
+            top:4px;
+            border-bottom-left-radius: 15px;  
+        }
+        .a34{
+            border:3px solid navy;
+            height:3vh;
+            width:5vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a35{
+            border:3px solid navy;
+            height:3vh;
+            width:16vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 166px;
+            top:4px;
+            border-bottom-left-radius: 15px;   
+        }
+        .b{
+            border:1px solid black;
+            height: 5vh;
+            width:20vw ;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+            background-color:navy;
+            color: white;
+            font-size: 20px;
+        }
+        .b1{
+            position: relative;
+            left:20px;
+
+        }
+        .b2{
+            position: relative;
+            left:30px;  
+        }
+    </style>
+</head>
+<body><h1 style="color:rgb(133, 9, 34); font-size: 40px; font-style: oblique; text-decoration: double;">Chat Box</h1>
+    <div class="q">
+        <div class="b"><svg viewBox="0 0 24 24" height="30px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7071 4.29289C12.0976 4.68342 12.0976 5.31658 11.7071 5.70711L6.41421 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H6.41421L11.7071 18.2929C12.0976 18.6834 12.0976 19.3166 11.7071 19.7071C11.3166 20.0976 10.6834 20.0976 10.2929 19.7071L3.29289 12.7071C3.10536 12.5196 3 12.2652 3 12C3 11.7348 3.10536 11.4804 3.29289 11.2929L10.2929 4.29289C10.6834 3.90237 11.3166 3.90237 11.7071 4.29289Z" fill="#faf5f5"></path> </g></svg> <img src="//i.pinimg.com/originals/0a/53/c3/0a53c3bbe2f56a1ddac34ea04a26be98.jpg" height="30px">S_a_s_h_i@123 <svg class="b1" viewBox="0 0 24 24" height="20px" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.5 6.5C15.2372 6.64382 15.9689 6.96892 16.5 7.5C17.0311 8.03108 17.3562 8.76284 17.5 9.5M15 3C16.5315 3.17014 17.9097 3.91107 19 5C20.0903 6.08893 20.8279 7.46869 21 9M20.9995 16.4767V19.1864C21.0037 20.2223 20.0723 21.0873 19.0265 20.9929C10.0001 21 3.00006 13.935 3.00713 4.96919C2.91294 3.92895 3.77364 3.00106 4.80817 3.00009H7.52331C7.96253 2.99577 8.38835 3.151 8.72138 3.43684C9.66819 4.24949 10.2772 7.00777 10.0429 8.10428C9.85994 8.96036 8.99696 9.55929 8.41026 10.1448C9.69864 12.4062 11.5747 14.2785 13.8405 15.5644C14.4272 14.9788 15.0274 14.1176 15.8851 13.935C16.9855 13.7008 19.7615 14.3106 20.5709 15.264C20.858 15.6021 21.0105 16.0337 20.9995 16.4767Z" stroke="#ebeaea" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg><svg class="b2" viewBox="0 0 48 48" height="30px" version="1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 48 48" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#dfece0" d="M8,12h22c2.2,0,4,1.8,4,4v16c0,2.2-1.8,4-4,4H8c-2.2,0-4-1.8-4-4V16C4,13.8,5.8,12,8,12z"></path> <polygon fill="#eef6ef" points="44,35 34,29 34,19 44,13"></polygon> </g></svg></div>
+<div class="a1 a"><p style="color:bisque; font-size: 15px;font-style:italic ; text-align: center; margin: auto;">wed 4:06PM</p></div>
+        <div class="a2 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Hi</p></div>
+        <div class="a3 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Hlo</p></div>
+        <div class="a4 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Ela unnav</p></div>
+        <div class="a5 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Good</p></div>
+        <div class="a6 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Nuvvu?</p></div>
+        <div class="a7 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Fine</p></div>
+        <div class="a8 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">em chestunav?</p></div><br><br>
+        <p align="center" style="opacity: 0.5; font-style: italic; color:bisque"> wed 8:34PM</p>
+        <div class="a9 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">M Ledu</p></div>
+        <div class="a10 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Cheppu</p></div>
+        <div class="a11 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto; text-align:start;">Tmr shopping ki veldama</p></div>
+        <div class="a12 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Sare</p></div>
+        <div class="a13 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Eppudu podham</p></div>
+        <div class="a14 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Mrng chepta</p></div>
+        <div class="a15 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Ok</p></div>
+        <div class="a16 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Hmm</p></div>
+        <p align="center" style="opacity: 0.7; font-style: italic; color:bisque"> Yesterday 9:14AM</p>
+        <div class="a17 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Hii</p></div>
+        <div class="a18 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Enthaki ravali</p></div>
+        <div class="a19 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto; text-align: left;">11:00 ki ala podam</p></div>
+        <div class="a20 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto; text-align: left;">Start ayyaka call chey</p></div>
+        <div class="a21 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Ok</p></div>
+        <p align="center" style="opacity: 0.7; font-style: italic; color:bisque"> Yesterday 1:48PM</p>
+        <div class="a22"><video controls height="100px" width="80px">
+            <source src="../Assests/Videos/v1.mp4">
+        </video></div>
+        <div class="a23"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Haha</p></div>
+        <div class="a24"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Thinnava</p></div>
+        <div class="a25"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Haa</p></div>
+        <div class="a26"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Nuvvu?</p></div>
+        <div class="a27"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Haa</p></div>
+        <p align="center" style="opacity: 0.7; font-style: italic; color:bisque"> Yesterday 10:01PM</p>
+        <div class="a28"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Dress pic pettu</p></div>
+        <div class="a29"><img src="https://images.meesho.com/images/products/430409931/xskxh_512.jpg" height="150px" width="80px"></div>
+        <div class="a30"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Ede kada</p></div>
+
+        <div class="a31"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Ede le</p></div>
+        <p align="center" style="opacity: 0.7; font-style: italic; color:bisque"> Today 7:21AM </p>
+        <div class="a32"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto; text-align: left;">Vastunava Class ki</p></div>
+        <div class="a33"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">On the way</p></div>
+        <div class="a34"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Haa</p></div>
+        <div class="a35"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Ekkada Unnav</p></div>
+    </div>
+</body>
+</html>
